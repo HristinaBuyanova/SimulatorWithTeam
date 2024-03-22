@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class TestClass: UIViewController {
+class TestTestTestClass: UIViewController {
     
     private lazy var someButton: UIButton = {
         let button = UIButton(type: .system)
