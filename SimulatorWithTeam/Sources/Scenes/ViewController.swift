@@ -21,6 +21,7 @@ class ViewController: UIViewController {
 //        еще изменения
     }
 
+    // MARK: Setup
 
 }
 
