@@ -6,7 +6,12 @@
 //
 
 import Foundation
+import UIKit
 
-class TestClass {
+class TestClass: UIViewController {
     
+    private lazy var someButton: UIButton = {
+        let button = UIButton(type: .system)
+        return button
+    }()
 }
