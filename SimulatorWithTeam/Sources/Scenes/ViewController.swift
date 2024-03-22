@@ -17,7 +17,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .yellow
 
-//        какие то изменения 
+//        какие то изменения
+//        еще изменения
     }
 
 
