@@ -8,6 +8,11 @@
 import UIKit
 
 class DetailViewController: UIViewController {
+    
+    private lazy var button: UIButton = {
+        let button = UIButton(type: .system)
+        return button
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
