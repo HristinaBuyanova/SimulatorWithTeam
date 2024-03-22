@@ -56,15 +56,47 @@
 		6ED6E31C2BADA3A400981D60 /* SimulatorWithTeam */ = {
 			isa = PBXGroup;
 			children = (
-				6ED6E31D2BADA3A400981D60 /* AppDelegate.swift */,
-				6ED6E31F2BADA3A400981D60 /* SceneDelegate.swift */,
-				6ED6E3212BADA3A400981D60 /* ViewController.swift */,
+				6ED6E3322BADA54000981D60 /* Sources */,
+				6ED6E3312BADA53400981D60 /* Resources */,
+			);
+			path = SimulatorWithTeam;
+			sourceTree = "<group>";
+		};
+		6ED6E3312BADA53400981D60 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				6ED6E3232BADA3A400981D60 /* Main.storyboard */,
 				6ED6E3262BADA3A600981D60 /* Assets.xcassets */,
 				6ED6E3282BADA3A600981D60 /* LaunchScreen.storyboard */,
 				6ED6E32B2BADA3A600981D60 /* Info.plist */,
 			);
-			path = SimulatorWithTeam;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6ED6E3322BADA54000981D60 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6ED6E3332BADA55300981D60 /* App */,
+				6ED6E3342BADA56700981D60 /* Scenes */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6ED6E3332BADA55300981D60 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6ED6E31D2BADA3A400981D60 /* AppDelegate.swift */,
+				6ED6E31F2BADA3A400981D60 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6ED6E3342BADA56700981D60 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6ED6E3212BADA3A400981D60 /* ViewController.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +326,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UGU4YXN2T7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SimulatorWithTeam/Info.plist;
+				INFOPLIST_FILE = SimulatorWithTeam/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,7 +354,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UGU4YXN2T7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SimulatorWithTeam/Info.plist;
+				INFOPLIST_FILE = SimulatorWithTeam/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
