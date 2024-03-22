@@ -14,4 +14,10 @@ class TestTestTestClass: UIViewController {
         let button = UIButton(type: .system)
         return button
     }()
+    
+    private lazy var label: UILabel = {
+        let label = UILabel()
+        return label
+    }()
 }
+
