@@ -19,5 +19,12 @@ class TestTestTestClass: UIViewController {
         let label = UILabel()
         return label
     }()
+    
+    private lazy var textView: UITextView = {
+        let text = UITextView()
+        return text
+    }()
+    
+    
 }
 
