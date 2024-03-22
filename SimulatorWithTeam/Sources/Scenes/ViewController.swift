@@ -9,6 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK: - Outlets
+
+    //  MARK: - Lifecycle
+
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .gray
