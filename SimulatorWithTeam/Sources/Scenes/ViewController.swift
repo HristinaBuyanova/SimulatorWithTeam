@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .yellow
+        title = "Hello students"
 
 //        какие то изменения
 //        еще изменения
