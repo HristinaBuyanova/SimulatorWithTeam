@@ -16,11 +16,6 @@ class ViewController: UIViewController {
         return label
     }()
     
-    private lazy var mylabelSecond: UILabel = {
-        let label = UILabel()
-        return label
-    }()
-    
     //  MARK: - Lifecycle
 
     override func viewDidLoad() {
