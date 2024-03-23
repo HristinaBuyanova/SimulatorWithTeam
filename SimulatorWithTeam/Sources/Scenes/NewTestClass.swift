@@ -40,6 +40,11 @@ class TestTestTestClass: UIViewController {
         return text
     }()
     
+    private lazy var textweView: UITextView = {
+        let text = UITextView()
+        return text
+    }()
+    
     
 }
 
