@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .yellow
-        title = "Hello Лена"
+        title = "Hello"
         navigationController?.navigationBar.prefersLargeTitles = true
 
 
