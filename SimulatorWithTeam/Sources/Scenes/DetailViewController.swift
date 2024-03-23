@@ -19,4 +19,5 @@ class DetailViewController: UIViewController {
         view.backgroundColor = .yellow
     }
 //    комит 1
+//    comit2
 }
