@@ -21,7 +21,18 @@ class NewViewController: UIViewController {
     
     // MARK: - Setup
     
-
+    private func setupView() {
+        
+    }
+    
+    private func setupHierarchy() {
+        
+    }
+    
+    private func setupLayout() {
+        
+    }
+    
     /*
     // MARK: - Navigation
 
