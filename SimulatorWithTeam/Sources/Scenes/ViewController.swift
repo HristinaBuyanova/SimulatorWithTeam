@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .yellow
         title = "Hello students"
+        navigationController?.navigationBar.prefersLargeTitles = true
+
 
 //        какие то изменения
 //        еще изменения
