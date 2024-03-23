@@ -18,5 +18,9 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .systemRed
     }
+// изменения
 
+//
+
+//    
 }
