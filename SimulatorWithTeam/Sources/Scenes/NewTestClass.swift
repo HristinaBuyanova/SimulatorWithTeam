@@ -25,6 +25,10 @@ class TestTestTestClass: UIViewController {
         return text
     }()
     
+    private lazy var someeButton: UIButton = {
+        let button = UIButton(type: .system)
+        return button
+    }()
     
 }
 
