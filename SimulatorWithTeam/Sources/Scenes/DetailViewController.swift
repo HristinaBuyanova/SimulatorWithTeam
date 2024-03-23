@@ -19,4 +19,8 @@ class DetailViewController: UIViewController {
         view.backgroundColor = .systemRed
     }
 // изменения
+
+//
+
+//    
 }
