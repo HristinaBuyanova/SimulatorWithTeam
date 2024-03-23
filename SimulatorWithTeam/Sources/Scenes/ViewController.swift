@@ -10,7 +10,10 @@ import UIKit
 class ViewController: UIViewController {
 
     // MARK: - Outlets
-
+    private lazy var mylabel: UILabel = {
+        let label = UILabel()
+        return label
+    }()
     //  MARK: - Lifecycle
 
     override func viewDidLoad() {
