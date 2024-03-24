@@ -50,6 +50,12 @@ class TestTestTestClass: UIViewController {
         return button
     }()
     
+    private lazy var somewwButton: UIButton = {
+        let button = UIButton(type: .system)
+        return button
+    }()
+    
+    
     
 }
 
