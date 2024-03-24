@@ -70,6 +70,10 @@ class TestTestTestClass: UIViewController {
         return button
     }()
     
+    private lazy var network3: UIButton = {
+        let button = UIButton(type: .system)
+        return button
+    }()
     
     
 }
