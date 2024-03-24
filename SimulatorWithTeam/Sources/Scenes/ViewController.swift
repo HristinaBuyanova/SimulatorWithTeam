@@ -32,9 +32,6 @@ class ViewController: UIViewController {
     }
 
     // MARK: Setup
-    
-    // Network commit
-    // первый комит
 
 }
 
